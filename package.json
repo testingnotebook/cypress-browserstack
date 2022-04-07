@@ -1,0 +1,14 @@
+{
+  "name": "cypress-browserstack",
+  "version": "1.0.0",
+  "description": "Supporting repo for the post at https://testingnotebook.com/run-cypress-tests-in-parallel-on-browserstack/. Please view there for the prerequisites and instructions.",
+  "scripts": {
+    "test": "cypress run",
+    "test:browserstack": "bash bin/browserstack_run.sh"
+  },
+  "author": "Aaron Williams",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.3"
+  }
+}
